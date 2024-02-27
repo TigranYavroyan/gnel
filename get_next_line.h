@@ -24,7 +24,7 @@
 
 char	*get_next_line(int fd);
 char	*ft_strchr(char *s, int c);
-char	*ft_strdup(char **line);
+char	*ft_slice(char **line);
 void	ft_strjoin(char **line, char *buff);
 void	new_line(char **line, char *next_lines);
 void	ft_read(int fd, char **line);
