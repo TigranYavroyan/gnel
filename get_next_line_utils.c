@@ -75,7 +75,7 @@ void	new_line(char **line, char *next_lines)
 	(*line) = tmp;
 }
 
-char	*ft_strslice(char **line)
+char	*ft_slice(char **line)
 {
 	int		i;
 	char	*res;
